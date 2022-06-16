@@ -1,0 +1,14 @@
+{
+  "name": "discord-bot-kupobonkbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/bot.js",
+  "scripts": {
+    "start": "node ./src/bot.ts",
+    "dev":"nodemon ./src/bot.ts"
+  },
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  }
+}
