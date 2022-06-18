@@ -5,9 +5,12 @@
   "main": "./src/bot.js",
   "scripts": {
     "start": "node ./src/bot.ts",
-    "dev":"nodemon ./src/bot.ts"
+    "dev": "nodemon ./src/bot.ts"
   },
   "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.34.0",
     "discord.js": "^13.8.0",
     "dotenv": "^16.0.1"
   }
